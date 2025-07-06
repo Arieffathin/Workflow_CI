@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 mlflow.sklearn.autolog()
 
 
-df = pd.read_csv(r'Membangun_Model\heart_clean.csv')
+df = pd.read_csv("./heart_clean.csv")
 
 
 X = df.drop('HeartDisease', axis=1)
