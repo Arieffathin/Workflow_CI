@@ -21,4 +21,5 @@ jobs:
           auto-activate-base: false
 
       - name: Run MLflow Project
-        run: mlflow run MLProject
+        run: conda run -n heart-disease-env mlflow run MLProject
+
